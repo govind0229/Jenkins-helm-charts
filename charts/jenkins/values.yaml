@@ -23,7 +23,7 @@ controller:
   componentName: "jenkins-controller"
   image: "jenkins/jenkins"
   tag: "2.375.3-jdk11"
-  #tagLabel: jdk17
+  tagLabel: jdk11
   imagePullPolicy: "Always"
   imagePullSecretName:
   # Optionally configure lifetime for controller-container
